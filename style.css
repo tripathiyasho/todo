@@ -6,11 +6,11 @@
   );
   --dark: #470000;
   --grey: #b1bacb;
-  --grey-border: rgb(32, 184, 34);
+  --grey-border: rgb(27, 193, 205);
   --grey-light: #eeeeee;
   --grey-dark: $405175;
   --blue: #2d70fd;
-  --green: #00d8a7;
+  --green: #22c1dac0;
   --white: #ffffff;
 }
 
@@ -29,7 +29,7 @@ body {
   font-size: 1.1rem;
   padding: 0.7rem 1.5rem;
   border-radius: 0.3rem;
-  background-color: var(--blue);
+  background-color: var(--green);
   border: none;
   position: absolute;
   right: 0.5rem;
@@ -46,13 +46,11 @@ p {
   margin: 0;
 }
 
-/* Todo Container */
-
 .todo {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border-radius: 2rem;
+  border-radius: 8rem;
   background: var(--white);
   padding: 3rem;
   height: 50%;
@@ -170,24 +168,11 @@ input[type="checkbox"]:checked::before {
 .footer {
   display: flex;
   gap: 1.8rem;
-  background-color: var(--white);
+ 
   padding: 1.2rem;
   border-radius: 0.5rem;
 }
 
-.made-by,
-.author {
-  font-size: 0.9rem;
-}
-
-.made-by {
-  color: var(--grey-dark);
-}
-
-.author {
-  color: var(--blue);
-  font-weight: bold;
-}
 
 .scroll {
   height: 15rem;
